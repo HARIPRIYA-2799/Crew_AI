@@ -246,4 +246,62 @@ Final Result
 It is a beginner-level example of how **CrewAI can coordinate an AI agent across multiple tasks**.
 
 
+**OUTPUT:**
+ python3 multi_task.py 
+Which city? Bangalore
+╭─────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────╮
+│                                                                                                                                 │
+│  Agent: Expert Local Travel Guide                                                                                               │
+│                                                                                                                                 │
+│  Task: Suggest exactly 3 places to visit in Bangalore. For each place, give its name and a short 1-line tip.                    │
+│                                                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[Finalize] todos_count=0, todos_with_results=0
+╭───────────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────────╮
+│                                                                                                                                 │
+│  Agent: Expert Local Travel Guide                                                                                               │
+│                                                                                                                                 │
+│  Final Answer:                                                                                                                  │
+│  1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the tranquil atmosphere and stunning flower displays.        │
+│  2. Bangalore Palace - Don't miss the guided tours for fascinating insights into the royal history and architecture.            │
+│  3. Čubú Marathalli (Cubbon Park) - Ideal for a leisurely walk or cycle ride, especially during the cooler hours of the day.    │
+│                                                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────╮
+│                                                                                                                                 │
+│  Agent: Expert Local Travel Guide                                                                                               │
+│                                                                                                                                 │
+│  Task: take the input from the above task and suggest the best travel route to follow for the same                              │
+│                                                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[Finalize] todos_count=0, todos_with_results=0
+╭───────────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────────╮
+│                                                                                                                                 │
+│  Agent: Expert Local Travel Guide                                                                                               │
+│                                                                                                                                 │
+│  Final Answer:                                                                                                                  │
+│  1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the tranquil atmosphere and stunning flower displays.        │
+│  2. Bangalore Palace - Don't miss the guided tours for fascinating insights into the royal history and architecture.            │
+│  3. Cubbon Park - Ideal for a leisurely walk or cycle ride, especially during the cooler hours of the day.                      │
+│                                                                                                                                 │
+│  **Best Route to Follow:**                                                                                                      │
+│  Start your day at Lalbagh Botanical Garden, then head to Bangalore Palace (approximately a 15-minute drive), and conclude      │
+│  your visit at Cubbon Park, which is just a 10-minute drive from the palace. This route allows you to enjoy a lovely green      │
+│  space first, followed by a dive into history, and finish with a relaxing park experience.                                      │
+│                                                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+========================================
+1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the tranquil atmosphere and stunning flower displays.  
+2. Bangalore Palace - Don't miss the guided tours for fascinating insights into the royal history and architecture.  
+3. Cubbon Park - Ideal for a leisurely walk or cycle ride, especially during the cooler hours of the day.
+
+**Best Route to Follow:**
+Start your day at Lalbagh Botanical Garden, then head to Bangalore Palace (approximately a 15-minute drive), and conclude your visit at Cubbon Park, which is just a 10-minute drive from the palace. This route allows you to enjoy a lovely green space first, followed by a dive into history, and finish with a relaxing park experience.
+
+
 
