@@ -1,4 +1,4 @@
-# ✈️ CrewAI Travel Planner
+# ✈️ CrewAI Travel Planner with 1 agent and 2 tasks
 
 
 
