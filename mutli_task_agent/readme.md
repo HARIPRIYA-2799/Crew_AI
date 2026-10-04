@@ -127,19 +127,15 @@ The second task receives the output from the first task and creates travel route
 python3 multiple_agent.py 
 Which city? Bangalore
 
+
 ========================================
-1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and avoid the crowds.  
-2. Bengaluru Palace - Take a guided tour to fully appreciate the history and architectural details of this stunning palace.  
-3. Brigade Road - Explore the vibrant shopping scene and local eateries; be sure to try some South Indian snacks while you're there.
+1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and the early blooms without the crowds.  
+2. Vishvesvaraya Industrial and Technological Museum - Don’t miss the interactive exhibits that make science fun for all ages.  
+3. Cubbon Park - Bring a picnic or a book to unwind in this lush green oasis right in the heart of the city.  
 
-**Best Route to Visit:**
+**Best Route:**
+Start your day at Lalbagh Botanical Garden. You can take the Metro to Lalbagh Station on the Green Line. After enjoying the garden, head towards Vishvesvaraya Industrial and Technological Museum, which is about a 15-minute walk from Lalbagh. 
 
-1. Start your day at **Lalbagh Botanical Garden**. Take the Myers Square bus stop to the Near Lalbagh main gate.
-2. After exploring Lalbagh, take the bus or a short taxi ride to **Bengaluru Palace**. From Lalbagh, it’s about a 15-minute drive.
-3. Finally, for **Brigade Road**, take a cab from the Bengaluru Palace. Brigade Road is roughly a 10-minute drive away, and you’ll be right in the heart of shopping and dining. 
-
-**Metro Travel Tips:** 
-- If using the metro, you can start at the Lalbagh Metro Station (Purple Line), travel to the Vidhana Soudha Station (change to the Green Line), and then reach Brigade Road by getting off at the Brigade Road Metro Station. 
-- For Bengaluru Palace, a cab will be necessary from either Lalbagh or Brigade Road as it is not on a direct metro line.
+Next, visit Cubbon Park, which is approximately a 10-minute walk from the museum. To return from Cubbon Park, you can take the Metro from Cubbon Park station (on the Green Line) or MG Road station (on the Purple Line) based on your further travel plans.
 
 Enjoy your trip!
