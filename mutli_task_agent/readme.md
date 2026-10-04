@@ -126,58 +126,20 @@ The second task receives the output from the first task and creates travel route
 
 python3 multiple_agent.py 
 Which city? Bangalore
-╭─────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────╮
-│                                                                                                                                 │
-│  Agent: Expert Local Travel Guide                                                                                               │
-│                                                                                                                                 │
-│  Task: Suggest exactly 3 places to visit in Bangalore. For each place, give its name and a short 1-line tip.                    │
-│                                                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-
-[Finalize] todos_count=0, todos_with_results=0
-╭───────────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────────╮
-│                                                                                                                                 │
-│  Agent: Expert Local Travel Guide                                                                                               │
-│                                                                                                                                 │
-│  Final Answer:                                                                                                                  │
-│  1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and avoid crowds.                          │
-│  2. Bangalore Palace - Don't miss the audio guide for an insightful tour of this majestic heritage site.                        │
-│  3. Vidhana Soudha - Capture stunning photos of this architectural marvel during sunset for the best light.                     │
-│                                                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-
-╭─────────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────────╮
-│                                                                                                                                 │
-│  Agent: Expert route map suggestor                                                                                              │
-│                                                                                                                                 │
-│  Task: take the input from the above task and suggest the best travel route to follow for the same                              │
-│                                                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-
-[Finalize] todos_count=0, todos_with_results=0
-╭───────────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────────╮
-│                                                                                                                                 │
-│  Agent: Expert route map suggestor                                                                                              │
-│                                                                                                                                 │
-│  Final Answer:                                                                                                                  │
-│  1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and avoid crowds.                          │
-│  2. Bangalore Palace - Don't miss the audio guide for an insightful tour of this majestic heritage site.                        │
-│  3. Vidhana Soudha - Capture stunning photos of this architectural marvel during sunset for the best light.                     │
-│                                                                                                                                 │
-│  **Best Route to Follow:**                                                                                                      │
-│  Start your day at **Lalbagh Botanical Garden**. Take a cab or use the metro to reach the **Lalbagh** station (Green Line).     │
-│  After enjoying the garden, head to **Bangalore Palace**. You can take an auto-rickshaw or a cab from the Lalbagh to the        │
-│  Palace, which is approximately a 10-minute ride. Finally, make your way to **Vidhana Soudha**. From Bangalore Palace, you can  │
-│  take a cab or an auto-rickshaw; it will take about 15-20 minutes. Plan to arrive at Vidhana Soudha before sunset to capture    │
-│  the best photos.                                                                                                               │
-│                                                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-
 
 ========================================
-1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and avoid crowds.  
-2. Bangalore Palace - Don't miss the audio guide for an insightful tour of this majestic heritage site.  
-3. Vidhana Soudha - Capture stunning photos of this architectural marvel during sunset for the best light.  
+1. Lalbagh Botanical Garden - Visit early in the morning to enjoy the serene beauty and avoid the crowds.  
+2. Bengaluru Palace - Take a guided tour to fully appreciate the history and architectural details of this stunning palace.  
+3. Brigade Road - Explore the vibrant shopping scene and local eateries; be sure to try some South Indian snacks while you're there.
 
-**Best Route to Follow:**  
-Start your day at **Lalbagh Botanical Garden**. Take a cab or use the metro to reach the **Lalbagh** station (Green Line). After enjoying the garden, head to **Bangalore Palace**. You can take an auto-rickshaw or a cab from the Lalbagh to the Palace, which is approximately a 10-minute ride. Finally, make your way to **Vidhana Soudha**. From Bangalore Palace, you can take a cab or an auto-rickshaw; it will take about 15-20 minutes. Plan to arrive at Vidhana Soudha before sunset to capture the best photos.
+**Best Route to Visit:**
+
+1. Start your day at **Lalbagh Botanical Garden**. Take the Myers Square bus stop to the Near Lalbagh main gate.
+2. After exploring Lalbagh, take the bus or a short taxi ride to **Bengaluru Palace**. From Lalbagh, it’s about a 15-minute drive.
+3. Finally, for **Brigade Road**, take a cab from the Bengaluru Palace. Brigade Road is roughly a 10-minute drive away, and you’ll be right in the heart of shopping and dining. 
+
+**Metro Travel Tips:** 
+- If using the metro, you can start at the Lalbagh Metro Station (Purple Line), travel to the Vidhana Soudha Station (change to the Green Line), and then reach Brigade Road by getting off at the Brigade Road Metro Station. 
+- For Bengaluru Palace, a cab will be necessary from either Lalbagh or Brigade Road as it is not on a direct metro line.
+
+Enjoy your trip!
